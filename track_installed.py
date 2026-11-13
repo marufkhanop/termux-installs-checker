@@ -10,19 +10,8 @@ LEDGER_FILE = LEDGER_DIR / "intentional_installs.json"
 
 # Clean manual ledger for Termux and Pip ONLY
 DEFAULT_LEDGER = {
-    "Termux Tools": [
-        "python",
-        "python-pip",
-        "git",
-        "proot-distro"
-    ],
-    "Python Packages (Pip)": [
-        "django",
-        "django-htmx",
-        "mutagen",
-        "sqlparse",
-        "asgiref"
-    ]
+    "Termux Tools": [],
+    "Python Packages (Pip)": []
 }
 
 def load_ledger():
